@@ -41,8 +41,8 @@ As a disclaimer, all identified findings by **Scrounger** should always be manua
 git pull https://github.com/nettitude/scrounger.git
 cd scrounger
 bash setup.sh
-pip install -r requirements.txt
-python setup.py install
+pip2 install -r requirements.txt
+python2 setup.py install
 ```
 
 ## Development
@@ -51,8 +51,8 @@ python setup.py install
 git pull https://github.com/nettitude/scrounger.git
 cd scrounger
 bash setup.sh
-pip install -r requirements.txt
-python setup.py develop
+pip2 install -r requirements.txt
+python2 setup.py develop
 ```
 
 ## Update
@@ -60,7 +60,7 @@ python setup.py develop
 ```
 cd scrounger
 git pull
-python setup.py install --upgrade
+python2 setup.py install --upgrade
 ```
 
 ## Required Binaries
@@ -171,8 +171,8 @@ fi
 # install scrounger
 git clone git@github.com:nettitude/scrounger.git
 cd scrounger
-pip install -r requirements.txt
-python setup.py install
+pip2 install -r requirements.txt
+python2 setup.py install
 ```
 
 ### MacOS
@@ -230,8 +230,8 @@ xcode-select --install
 # install scrounger
 git clone git@github.com:nettitude/scrounger.git
 cd scrounger
-pip install -r requirements.txt
-python setup.py install
+pip2 install -r requirements.txt
+python2 setup.py install
 ```
 
 ## Adding Custom Modules
